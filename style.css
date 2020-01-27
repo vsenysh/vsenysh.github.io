@@ -1,0 +1,340 @@
+
+
+body {
+  }
+
+
+header{
+
+  background-color: white;
+}
+main {
+
+}
+footer {
+  color: white;
+  background-color: grey;
+}
+
+.home {
+  background-color: white;
+}
+.containercolumns{
+width: 900px;
+margin: 10px auto;
+padding-bottom: 20px;
+padding-top: 20px;
+background-color: white;
+opacity:0.7;
+margin-left: 100px;
+color:teal;
+display:inline-block;
+}
+
+#thetext{
+  padding-left: 55px;
+  font-size: 25px;
+}
+#thetext2{
+  padding-left: 55px;
+  font-size: 25px;
+
+}
+.containercolumns img{
+  display:inline-block;
+  float: left;
+  width: 92.33%;
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+hr {
+  display:block;
+   margin-top: 0.0em;
+   margin-bottom: 0.0em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style:inset;
+   border-width: 2px;
+   border-color: grey;
+}
+.container{
+width: 1080px;
+margin: 0 auto;
+background-color: grey;}
+
+.home-picture{
+  width:100%;
+}
+
+.home-2-col {
+  display:inline-block;
+  width: 1080px;
+  height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align: top;
+  opacity: 0.2;
+  margin: 0;
+}
+.home-2-text{
+  display:inline-block;
+  position:absolute;
+  top: 35%;
+  left: 17%;
+  width: 1040px;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  color:  black;
+}
+
+.picofme {
+  display:inline-block;
+  width: 500px;
+  margin-left: 300px;
+  margin-top: 100px;
+  vertical-align: top;
+
+}
+
+.picofme img
+{width: 500px;
+border-radius: 30%;
+}
+
+.picofme2 {
+  display:inline-block;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: 100px;
+  vertical-align: top;
+
+}
+
+.picofme2 img
+{width: 300px;
+border-radius: 55%;
+margin-top: 75px;
+padding-bottom: 50px;
+padding-left: 170px;
+}
+
+h1 {
+  color:black;
+  padding-left: 350px;
+  font-family: 'Zhi Mang Xing', cursive;
+  padding-bottom: 15px;
+  margin: auto;
+}
+h2 {
+  display:inline-block;
+  position:absolute;
+  top: 83%;
+  left: 32%;
+  width: 1040px;
+  font-size: 60px;
+  font-family:fantasy;
+  color:  black;
+}
+
+h3 {
+  display:inline-block;
+  position:absolute;
+  top: 110%;
+  left: 16%;
+  width: 1040px;
+  font-size: 30px;
+  font-family:fantasy;
+  color:  black;
+}
+h9 {
+  display:inline-block;
+  font-size: 60px;
+  font-family:fantasy;
+  color: white;
+  padding-left: 270px;
+  padding-top: 10px;
+  opacity: 0.7;
+
+}
+h4 {
+  display:inline-block;
+  position:absolute;
+  top: 110%;
+  left: 73%;
+  width: 1040px;
+  font-size: 30px;
+  font-family:fantasy;
+  color:  black;
+}
+
+p5
+{
+  display:inline-block;
+  position:absolute;
+  top: 95%;
+  left: 12%;
+  width: 1040px;
+  font-size: 20px;
+  font-family:fantasy;
+  color:  black;
+}
+
+div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 200px;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+div li {
+  float: left;
+}
+
+div li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 12px 40px;
+  text-decoration: none;
+}
+
+div li a:hover {
+  background-color: #111;
+  color: teal;
+  text-decoration: underline;
+}
+
+
+.containerfooter{
+width: 1080px;
+margin: 0 auto;
+background-color:#333 ;}
+
+
+
+  a:hover {
+
+  color: red;
+  color: white;
+  opacity: 0.7;
+}
+
+.certificate img
+{
+  margin-top: 100px;
+  float:left;
+  padding: 10px;
+  width: 520px;
+}
+
+h16 {
+  display:inline-block;
+  position:absolute;
+  top: 93%;
+  left: 22%;
+  width: 1040px;
+  font-size: 50px;
+  font-family:fantasy;
+  color:  white;
+}
+h17 {
+  display:inline-block;
+  position:absolute;
+  top: 93%;
+  left: 60%;
+  width: 1040px;
+  font-size: 50px;
+  font-family:fantasy;
+  color:  white;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 540px 540px 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  ". one one ."
+  ". three four .";
+}
+
+.one {
+  grid-area: one;
+  background-color: black;
+
+}
+
+.two {
+  grid-area: two;
+  background-color: black;
+}
+.three {
+  grid-area: three;
+  background-color: gray;
+}
+
+
+.four {
+  grid-area: four;
+  background-color: gray;
+}
+
+.nestedgrid{
+  display: grid;
+  grid-template-columns: 540px 540px;
+  grid-auto-rows: 500px;
+  padding-left: 92px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+h{
+  font-size: 54px;
+  padding-left: 30px;
+  color: white;
+  opacity: 0.5;
+}
+h5{
+  font-size: 20px;
+  padding-left: 80px;
+  padding-top: 10px;
+  color: black;
+  opacity: 0.7;
+}
+
+h6{
+  font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+  color: black;
+  opacity: 0.7;
+}
+
+h99 {
+  color:black;
+  padding-left: 450px;
+  font-family: 'Zhi Mang Xing', cursive;
+  margin-bottom:60px;
+  margin: auto;
+  font-size: 35px;
+}
+.continue{
+color: teal;
+}
+h77 {  display:inline-block;
+  position:absolute;
+  top: 89%;
+  left: 18%;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  width: 1040px;
+  font-size: 25px;
+  font-family:fantasy;
+  color:  teal;
+
+}
